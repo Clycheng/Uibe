@@ -1,0 +1,36 @@
+﻿BODY {
+	SCROLLBAR-FACE-COLOR: #efefef; BACKGROUND: #cccccc; MARGIN: 0px; FONT: 9pt 宋体; SCROLLBAR-HIGHLIGHT-COLOR: #f7f8f0; SCROLLBAR-SHADOW-COLOR: #cccccc; SCROLLBAR-3DLIGHT-COLOR: #f7f8f0; SCROLLBAR-ARROW-COLOR: #cccccc; SCROLLBAR-TRACK-COLOR: #cccccc; SCROLLBAR-DARKSHADOW-COLOR: #cccccc; TEXT-DECORATION: none; table: 0px
+}
+TD {
+	FONT: 12px 宋体
+}
+IMG {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; VERTICAL-ALIGN: bottom; BORDER-LEFT: 0px; BORDER-BOTTOM: 0px
+}
+A {
+	FONT: 12px 宋体; COLOR: #000000; TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000
+}
+.sec_menu {
+	BORDER-RIGHT: white 1px solid; BACKGROUND: #f7f8f0; OVERFLOW: hidden; BORDER-LEFT: white 1px solid; BORDER-BOTTOM: white 1px solid; font-family:Arial, Helvetica, sans-serif
+}
+.menu_title {
+	
+}
+.menu_title SPAN {
+	FONT-WEIGHT: bold; LEFT: 8px; COLOR: #0f42a6; POSITION: relative; TOP: 2px
+}
+.menu_title2 {
+	
+}
+.menu_title2 SPAN {
+	FONT-WEIGHT: bold; LEFT: 8px; COLOR: #cc0000; POSITION: relative; TOP: 2px
+}
+.Glow {
+	FILTER: Glow(Color=#ffffff, Strength=1) dropshadow(Color=#ffffff, OffX=0, OffY=1,)
+}

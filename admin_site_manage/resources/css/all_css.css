@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*表格变色色值*/
+#table_color tr td{ height:27px; border-bottom:1px solid #e5e5e5}
+.color1 {background-color:#f7f7f7; height:26px;  line-height:26px; color:#1b4f74;}
+.color2 {background-color:#fff; height:26px;  line-height:26px; color:#1b4f74;}
+li{ list-style:none;}
+.anniu{ background:#2F2F2F; color:#FFF; width:auto; height:20px; border:#3C6FA6; line-height:20px; padding:0 7px;}
+.file{ background:#fff; color:#000; width:250px; border:#75A8DF solid 1px; height:20px; line-height:16px;}
+
+.input_txt{ border:1px solid #dbdbdb; margin-left:3px; height:28px; line-height:28px; width:280px;} 
+.input_seq_txt{ border:1px solid #dbdbdb; margin-left:3px; height:28px; line-height:28px; width:30px;} 
+.textarea_txt{ border:1px solid #dbdbdb; margin:3px; padding:3px;} 
+.input_none{ border:1px solid #dbdbdb; margin:3px; margin-left:5px; height:20px; width:250px; line-height:20px;} 
+.input_hongse{ background:#fff; color:#000; width:250px; border:#ccc solid 1px; height:20px; line-height:20px;}
+.yangshi{ border:#ff0000 solid 1px; padding:1px 20px; color:#fff; font-weight:bold; background:#ff0000;}
+
+
+/*全局样式*/
+a:link{ text-decoration:none; color:#005081}
+a:visited{ text-decoration:none; color:#005081}
+a:hover{ text-decoration:none; color:#000; }
+a:active{ text-decoration:none; color:#390}
+/*  深灰色的链接  */
+a.grey:link{ text-decoration:none; color:#404040}
+a.grey:visited{ text-decoration:none; color:#404040}
+a.grey:hover{ text-decoration:none; color:#15669c; }
+a.grey:active{ text-decoration:none; color:#404040}
+
+/*
+*{ border:0px; padding:0px; margin:0px; font-size:12px; color:#000; font-family:宋体，Arial, Helvetica, sans-serif}
+*/
+*{ padding:0px; font-size:13px; color:#000; font-family:宋体，Arial, Helvetica, sans-serif}
+
+.imgcss img{ vertical-align:middle; margin-right:5px;}
+#ari{font:12px Arial, Helvetica, sans-serif;}
+
+/*top样式*/
+.adm_top{ background:url(top_bg.gif) repeat-x; height:70px; width:100%}
+.adm_top_logo{ background:url(top_logo.gif) no-repeat; width:350px; height:70px; float:left;}
+.adm_top_info{ float:right; padding-top:10px}
+
+/*main样式*/
+.main_body{ margin:10px 0px 0px 10px; width:98%; height:auto; }
+.more_login{ height:20px; line-height:20px; width:100%; padding-bottom:5px;  float:none}
+.more_login a{ color:#9d9d9d;}
+
+.the_title{ background:url(main_titlebg.gif) repeat-x; height:29px; border:1px solid #d3dbe4; border-top-style:none; border-bottom-style:none;}
+.title_text{ background:url(top_bt.gif) no-repeat;font-family:"宋体"; height:29px; width:90px; margin-left:10px; font-size:13px; padding-top:6px;text-align:center; color:#000}
+.file_title{ height:35px; line-height:35px; color:#333; font-size:12px; font-family:"宋体"; background:url(edit.gif) no-repeat 0px 9px; padding-left:22px;}
+.main_bqsy{ height:30px; line-height:30px; font-size:12px; font-family:"宋体"; text-align:center; margin-top:30px; text-align:center}
+
+
+
+.cs_bord_right{ border-right:1px solid #cdcdcd; text-align:center}
+.cs_tit_type{ height:26px; line-height:26px; border:1px;}
+.table_css td{ padding-left:3px;}
+.tabinput{ border:1px solid #CCC; width:300px; height:20px;}
+.table_css tr td span{ color:#888; padding-left:10px;}
+
+textarea{ margin:3px; border:1px solid #dbdbdb; height:40px;}
+
+/*TAB标题样式*/
+.maincontent{}
+.maincontent table{ border:1px;}
+.maincontent select{ height:28px; border:1px solid #999; margin-left:3px;}
+.tab_title{ background:#eeeeee; height:23px;}
+.tab_title2{ background:#fff;}
+.listpage{border:0px solid #CCC; background:#eeeeee; text-align:left; width:100%; border:1px solid #dbdbdb; letter-spacing:1px; height:25px; border-top:none; line-height:25px; text-indent:10px;}
+.listpage p{ float:right; margin-top:3px; padding-right:10px;}
+.xiangmufenpei{ height:30px; background:#; border:1px solid #dbdbdb; margin-top:10px;}

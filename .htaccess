@@ -1,0 +1,106 @@
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#RewriteBase /
+
+RewriteRule ^about/$ about.php
+RewriteRule ^about$ about.php
+RewriteRule ^about/detail-([0-9]+)\.html$ about.php?one=$1
+RewriteRule ^about/detail-([0-9]+)-([0-9]+)\.html$ about.php?one=$1&two=$2
+
+RewriteRule ^new/$ new.php
+RewriteRule ^new$ new.php
+RewriteRule ^new/list-([0-9]+)\.html$ new.php?one=$1
+RewriteRule ^new/list-([0-9]+)-([0-9]+)\.html$ new.php?one=$1&two=$2
+RewriteRule ^new/list-([0-9]+)-([0-9]+)-([0-9]+)\.html$ new.php?one=$1&two=$2&p=$3
+RewriteRule ^new/detail-([0-9]+)-([0-9]+)-([0-9]+)\.html$ new_detail.php?one=$1&two=$2&id=$3
+
+RewriteRule ^activity/$ activity.php
+RewriteRule ^activity$ activity.php
+RewriteRule ^activity/list-([0-9]+)\.html$ activity.php?one=$1
+RewriteRule ^activity/list-([0-9]+)-([0-9]+)\.html$ activity.php?one=$1&p=$3
+RewriteRule ^activity/detail-([0-9]+)-([0-9]+)\.html$ activity_detail.php?one=$1&id=$2
+
+RewriteRule ^college/$ college.php
+RewriteRule ^college$ college.php
+RewriteRule ^college/list-([0-9]+)\.html$ college.php?one=$1
+RewriteRule ^college/list-([0-9]+)-([0-9]+)\.html$ college.php?one=$1&p=$3
+RewriteRule ^college/detail-([0-9]+)-([0-9]+)\.html$ college_detail.php?one=$1&id=$2
+
+RewriteRule ^pressRelease/$ pressRelease.php
+RewriteRule ^pressRelease$ pressRelease.php
+RewriteRule ^pressRelease/list-([0-9]+)\.html$ pressRelease.php?one=$1
+RewriteRule ^pressRelease/list-([0-9]+)-([0-9]+)\.html$ pressRelease.php?one=$1&two=$2
+RewriteRule ^pressRelease/list-([0-9]+)-([0-9]+)\.html$ pressRelease.php?one=$1&two=$2&p=$3
+RewriteRule ^pressRelease/detail-([0-9]+)-([0-9]+)\.html$ pressRelease_detail.php?one=$1&id=$2
+RewriteRule ^pressRelease/detail-([0-9]+)-([0-9]+)-([0-9]+)\.html$ pressRelease_detail.php?one=$1&two=$2&id=$3
+
+RewriteRule ^post/$ post.php
+RewriteRule ^post$ post.php
+RewriteRule ^post/list-([0-9]+)\.html$ post.php?one=$1
+RewriteRule ^post/list-([0-9]+)-([0-9]+)\.html$ post.php?one=$1&two=$2
+RewriteRule ^post/list-([0-9]+)-([0-9]+)-([0-9]+)\.html$ post.php?one=$1&two=$2&p=$3
+RewriteRule ^post/detail-([0-9]+)-([0-9]+)-([0-9]+)\.html$ post_detail.php?one=$1&two=$2&id=$3
+
+RewriteRule ^job/$ job.php
+RewriteRule ^job$ job.php
+RewriteRule ^job/list-([0-9]+)\.html$ job.php?one=$1
+RewriteRule ^job/list-([0-9]+)-([0-9]+)\.html$ job.php?one=$1&two=$2
+RewriteRule ^job/list-([0-9]+)-([0-9]+)-([0-9]+)\.html$ job.php?one=$1&two=$2&p=$3
+RewriteRule ^job/detail-([0-9]+)-([0-9]+)-([0-9]+)\.html$ job_detail.php?one=$1&two=$2&id=$3
+
+RewriteRule ^project/$ project.php
+RewriteRule ^project$ project.php
+RewriteRule ^project/list-([0-9]+)\.html$ project.php?one=$1
+RewriteRule ^project/list-([0-9]+)-([0-9]+)\.html$ project.php?one=$1&two=$2
+RewriteRule ^project/list-([0-9]+)-([0-9]+)-([0-9]+)\.html$ project.php?one=$1&two=$2&p=$3
+RewriteRule ^project/detail-([0-9]+)-([0-9]+)\.html$ project_detail.php?one=$1&id=$2
+RewriteRule ^project/detail-([0-9]+)-([0-9]+)-([0-9]+)\.html$ project_detail.php?one=$1&two=$2&id=$3
+
+
+RewriteRule ^notice/$ notice.php
+RewriteRule ^notice$ notice.php
+RewriteRule ^notice/detail-([0-9]+)\.html$ notice.php?one=$1
+RewriteRule ^notice/detail-([0-9]+)-([0-9]+)\.html$ notice.php?one=$1&two=$2
+
+RewriteRule ^share/$ share.php
+RewriteRule ^share$ share.php
+RewriteRule ^share/detail-([0-9]+)\.html$ share.php?one=$1
+RewriteRule ^share/detail-([0-9]+)-([0-9]+)\.html$ share.php?one=$1&two=$2
+
+RewriteRule ^education/$ education.php
+RewriteRule ^education$ education.php
+RewriteRule ^education/detail-([0-9]+)\.html$ education.php?one=$1
+RewriteRule ^education/detail-([0-9]+)-([0-9]+)\.html$ education.php?one=$1&two=$2
+
+RewriteRule ^certificate/$ certificate.php
+RewriteRule ^certificate$ certificate.php
+RewriteRule ^certificate/detail-([0-9]+)\.html$ certificate.php?one=$1
+RewriteRule ^certificate/detail-([0-9]+)-([0-9]+)\.html$ certificate.php?one=$1&two=$2
+
+RewriteRule ^cooperation/$ cooperation.php
+RewriteRule ^cooperation$ cooperation.php
+RewriteRule ^cooperation/detail-([0-9]+)\.html$ cooperation.php?one=$1
+RewriteRule ^cooperation/detail-([0-9]+)-([0-9]+)\.html$ cooperation.php?one=$1&two=$2
+
+RewriteRule ^contact/$ contact.php
+RewriteRule ^contact$ contact.php
+RewriteRule ^contact/detail-([0-9]+)\.html$ contact.php?one=$1
+RewriteRule ^contact/detail-([0-9]+)-([0-9]+)\.html$ contact.php?one=$1&two=$2
+
+RewriteRule ^nav/$ nav.php
+RewriteRule ^nav$ nav.php
+RewriteRule ^nav/detail-([0-9]+)\.html$ nav.php?one=$1
+RewriteRule ^nav/detail-([0-9]+)-([0-9]+)\.html$ nav.php?one=$1&two=$2
+
+RewriteRule ^links/$ links.php
+RewriteRule ^links$ links.php
+RewriteRule ^links/detail-([0-9]+)\.html$ links.php?one=$1
+RewriteRule ^links/detail-([0-9]+)-([0-9]+)\.html$ links.php?one=$1&two=$2
+</IfModule>
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html
+#AddOutputFilterByType DEFLATE text/javascript
+#AddOutputFilterByType DEFLATE text/css 
+#AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>

@@ -1,0 +1,145 @@
+/*body {
+	font-size: 62.5%;
+	font-family: "宋体", "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}*/
+
+body{ 
+   padding:0 0 0 0; 
+   margin:0 0 0 0; 
+}
+
+* {
+   font-size:13px; 
+   color:#000; 
+   font-family:宋体，Arial, Helvetica, sans-serif
+}
+
+table {
+	font-size: 1em;
+}
+
+.demo-description {
+	clear: both;
+	padding: 0px;
+	font-size: 1.3em;
+	line-height: 1.4em;
+	height: 10px;
+}
+
+.ui-draggable, .ui-droppable {
+	background-position: top;
+}
+
+/*全局样式*/
+a:link{ 
+  text-decoration:none;
+  color:#005081
+}
+a:visited{ 
+  text-decoration:none; 
+  color:#005081
+}
+a:hover{ 
+  text-decoration:none; 
+  color:#000;
+}
+a:active{ 
+  text-decoration:none; 
+  color:#390
+}
+/*  深灰色的链接  */
+a.grey:link{ 
+  text-decoration:none; 
+  color:#404040
+}
+a.grey:visited{ 
+  text-decoration:none; 
+  color:#404040
+}
+a.grey:hover{ 
+  text-decoration:none; 
+  color:#15669c;
+}
+a.grey:active{
+   text-decoration:none; 
+   color:#404040
+}
+
+label, input { 
+	display:block;
+}
+input.text { 
+  margin-top:2px; 
+  margin-bottom:5px; 
+	width:280px; 
+	padding: .4em;
+	height:31px;
+	margin-left:3px;
+	float: left;
+}
+input.text_seq { 
+  margin-top:2px; 
+  margin-bottom:5px; 
+  width:40px; 
+  padding: .4em;
+  text-align:center;
+  margin-left:3px;
+  height:31px;
+}
+textarea.textarea { 
+  margin-top:2px; 
+  margin-bottom:5px; 
+  padding: .4em;
+  margin-left:3px;
+  width:98%; 
+  height:100px; 
+  border:1px solid #dbdbdb; 
+}
+span.tip {
+  color:red; 
+  padding: .5em;
+  float:left;
+}
+input.button {
+  margin-top:2px; 
+  float:left;
+  margin-left:3px;
+}
+.img-view {
+  padding: .5em;
+  float:left;
+}
+
+fieldset { 
+	padding:0;
+  border:0;
+  margin-top:25px;
+}
+h1 { 
+	font-size: 1.2em;
+  margin: .6em 0;
+}
+div#table-header-contain { 
+	width: 100%; 
+}
+div#table-header-contain table { 
+	 margin: 0 0; 
+	 border-collapse: collapse; 
+	 width: 100%; 
+}
+div#table-header-contain table td, div#table-header-contain table th { 
+	border: 0;
+	text-align: left; 
+}
+
+div#table-body-contain { 
+  width: 100%; 
+}
+div#table-body-contain table { 
+   margin: 0 0; 
+   border-collapse: collapse; 
+   width: 100%; 
+}
+div#table-body-contain table td, div#table-body-contain table th { 
+  border: 1px solid #eee; 
+}

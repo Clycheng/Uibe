@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /admin_site_manage/
+Disallow: /common/
+Disallow: /core/
+Disallow: /db/
+Disallow: /resources/
+Disallow: /upload/
+Disallow: /
